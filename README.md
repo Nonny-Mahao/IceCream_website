@@ -2,11 +2,11 @@
 ![Bliss icecream](images/bliss.png "ice cream")
 
 ## *Discription* : 
-This is a simple project that tests whether a number is oven or odd.
+This is a project about creating a website for an ice cream parlour.
 This project was conducted as an exercise during a learnership hosted by [Girlcode](https://github.com/GirlCodeZA)
 
 It was built using **HTML** , **CSS** and **JavaScript**.
-## Tools used : *Visual Studio Code*
+## Tools used :  *Notepad++* and *Visual Studio Code*
 
 ## Features to be implemented in the future :
 * Create a database to save login and sign ups.
@@ -20,8 +20,7 @@ It was built using **HTML** , **CSS** and **JavaScript**.
 1. Open the project on a code editor (VS CODE PREFERD)
 2. Right click *index.html*
 3. Select *Open with live share* OR select *Copy path* and paste the link in a browser.
-4. press F12 select *console* on the top bar
-5. The results of the application will appear there.
+4. Then you will see the website and be able to navigate through it.
 
 ### Contributions
 Contributions are welcome. To contribute you can open a new issue or do a pull request.
