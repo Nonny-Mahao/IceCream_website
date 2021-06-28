@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About us page</title>
+<!-- <link rel="stylesheet" type="text/css" href="mystyle.css" /> -->
+<link rel="stylesheet" type="text/css" href="newcss.css" />
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+
+</head>
+<body>
+
+
+<br>
+<br>
+ <ul>
+		  <li><a class="active" href="index.html">Home</a></li>
+	   
+          <li><a href="products.html">Our Menu</a></li>
+	   
+          <li><a href="about.html">About Us</a></li>
+		  
+	      <li><a href="contact.html">Contact Us</a></li>
+		  
+		  <li><a href="signUp.html">Sign Up</a><li>
+		  
+		  </ul>
+
+<br>
+<br>
+
+<h1><i>About Bliss Ice Cream Parlour</i></h1>
+
+    <hr> 
+	
+		 <p> Bliss ice cream parlour is a locally owned business in Marshalltown.<br> Offering Johannesburg city well thought ice cream that will have you wanting more.
+            </p>  
+    	
+<hr>
+
+<h2><i>Business Hours </i></h2>
+
+<p> Mon - Sat:	9:00 AM – 10:00 PM   <br>
+    Sun      :	11:00 AM - 8:00 PM   <br>
+    Public Holidays : 11:00 AM - 10:00 PM 	
+</p>
+<hr>
+
+<h1><i>Gallery</i></h1>
+<br>
+
+      <div id="slideshow-example" data-component="slideshow">
+        <div role="list">
+          <div class="slide">
+                <img src="images/ice1.PNG" width="650" height="400" class="center">
+          </div>
+          <div class="slide">
+                <img src="images/ice2.PNG" width="650" height="400" class="center">
+          </div>
+          <div class="slide">
+                <img src="images/ice3.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/ice4.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g1.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g2.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g3.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g4.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g5.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/ice7.PNG" width="650" height="400" class="center">
+          </div>
+        </div>
+      </div>
+
+</center>
+
+<script>
+
+	  var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+  
+  // Apply to all slideshows that you define with the markup wrote
+  slideshows.forEach(initSlideShow);
+
+  function initSlideShow(slideshow) {
+
+    var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`); // Get an array of slides
+
+    var index = 0, time = 5000;
+    slides[index].classList.add('active');  
+    
+    setInterval( () => {
+      slides[index].classList.remove('active');
+      
+      //Go over each slide incrementing the index
+      index++;
+      
+      // If you go over all slides, restart the index to show the first slide and start again
+      if (index === slides.length) index = 0; 
+      
+      slides[index].classList.add('active');
+
+    }, time);
+  }
+
+</script>
+
+<footer>
+<div class="footer">
+<h4>Follow us on </h4>
+ <a href="https://www.twitter.com/"><i class="fab fa-twitter icon3"></i></a>
+  <a href="https://www.instagram.com/nonny_mahao/"> <i class="fab fa-instagram icon"></i></a>  
+<a href="https://www.facebook.com"><i class="fab fa-facebook icon2"></i></a>
+</div>
+<footer>		
+<center>
+<h6> Copyright @ Bliss Ice cream Palour </h6>	
+</center>	
+</body>
+</html>
