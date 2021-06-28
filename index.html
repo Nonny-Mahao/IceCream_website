@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Landing page</title>
+<link rel="stylesheet" type="text/css" href="mycss.css" />
+<link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+     
+</head>
+
+<body>
+ 
+         <br>
+		 <br>
+		 <ul>
+		  <li><a class="active" href="index.html">Home</a></li>
+	   
+          <li><a href="products.html">Our Menu</a></li>
+	   
+          <li><a href="about.html">About Us</a></li>
+		  
+	      <li><a href="contact.html">Contact Us</a></li>
+		  
+		  <li><a href="signUp.html">Sign Up</a><li>
+		  
+		  </ul>
+		  
+		  
+
+		  
+		  
+<img src="images/bliss.PNG" alt="logo" width="12 00" height="200" class="center">		
+
+<br> 
+<hr>
+<h3><i>Celebrate every moment with cold love.</i> 
+
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Order Now</button>
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="privacy.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign up</button>
+      </div>
+    </div>
+  </form>
+</div>
+<br>
+      <div id="slideshow-example" data-component="slideshow">
+        <div role="list">
+          <div class="slide">
+                <img src="images/ice1.PNG" width="650" height="400" class="center">
+          </div>
+          <div class="slide">
+                <img src="images/ice2.PNG" width="650" height="400" class="center">
+          </div>
+          <div class="slide">
+                <img src="images/ice3.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/ice4.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g1.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g2.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g3.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g4.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/g5.PNG" width="650" height="400" class="center">
+          </div>
+		  <div class="slide">
+                <img src="images/ice7.PNG" width="650" height="400" class="center">
+          </div>
+        </div>
+      </div>
+
+</center>
+<br>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+
+	  var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+  
+  // Apply to all slideshows that you define with the markup wrote
+  slideshows.forEach(initSlideShow);
+
+  function initSlideShow(slideshow) {
+
+    var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`); // Get an array of slides
+
+    var index = 0, time = 5000;
+    slides[index].classList.add('active');  
+    
+    setInterval( () => {
+      slides[index].classList.remove('active');
+      
+      //Go over each slide incrementing the index
+      index++;
+      
+      // If you go over all slides, restart the index to show the first slide and start again
+      if (index === slides.length) index = 0; 
+      
+      slides[index].classList.add('active');
+
+    }, time);
+  }
+
+</script>
+</h3> 
+<br>
+
+<footer>
+<div class="footer">
+<h4>Follow us on </h4>
+ <a href="https://www.twitter.com/"><i class="fab fa-twitter icon3"></i></a>
+  <a href="https://www.instagram.com/nonny_mahao/"> <i class="fab fa-instagram icon"></i></a>  
+<a href="https://www.facebook.com"><i class="fab fa-facebook icon2"></i></a>  
+</div>
+<footer>
+<h6 style="text-align: center;"> Copyright @ Bliss Ice cream Palour </h6>	
+</body>
+</html>
