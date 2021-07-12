@@ -15,6 +15,10 @@ h3{
 	font-size: 40px;
 	text-align: center;
 }
+h4{
+  font-size: 15px;
+
+}
 p {
   font-family: verdana; 
   font-size: 20px;
@@ -59,14 +63,23 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
+.flex-container {
+  display: flex;
+  height: 1000px;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: F0FFF0;
+}
 
-[data-component="slideshow"] .slide {
-    display: none;
-  }
-
-  [data-component="slideshow"] .slide.active {
-    display: block;
-  }
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+ /* line-height: 75px; */
+  font-size: 20px;
+}
   
 .icon{
 	font-size:20px;
