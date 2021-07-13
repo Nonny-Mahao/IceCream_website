@@ -1,6 +1,9 @@
 // Get the modal
 var modal = document.getElementById('id01');
 
+var modal = document.getElementById('id02');
+
+
 
 	  var slideshows = document.querySelectorAll('[data-component="slideshow"]');
   
