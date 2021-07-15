@@ -1,7 +1,7 @@
 # Bliss IceCream Parlour website
 ![Bliss icecream](images/bliss.png "ice cream")
 
-## *Description* : 
+## *Project Description* : 
 This is a project about creating a website for an ice cream parlour.
 This project was conducted as an exercise during a learnership hosted by [Girlcode](https://github.com/GirlCodeZA)
 
