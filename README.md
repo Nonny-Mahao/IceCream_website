@@ -10,6 +10,7 @@ It was built using **HTML** , **CSS** and **JavaScript**.
 
 ## Features to be implemented in the future :
 * Create a database to save login and sign ups. 
+* Create a forgot password retrieving function.
 
 
 

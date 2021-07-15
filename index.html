@@ -1,156 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <title>Landing page</title>
-      <link rel="stylesheet" type="text/css" href="mycss.css" />
-      <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />     
+            <title>Landing page</title>
+            <link rel="stylesheet" type="text/css" href="mycss.css" />
+            <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,300&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+            integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />     
 </head>
 <body>
 <br>
 <br>
-      <ul>
-		    <li><a href="index.html">Home</a></li>
+            <ul>
+		<li><a href="index.html">Home</a></li>
 	      <li><a href="products.html">Our Menu</a></li>
 	      <li><a href="about.html">About Us</a></li>
-		    <li><a href="contact.html">Contact Us</a></li>
-		    <li><a href="signUp.html">Sign Up</a><li>
-		  </ul>
-		  <section class="myclass">
-		  <img src="images/bliss.PNG" alt="logo" width="12 00" height="200" class="center">	
-           
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="signUp.html">Sign Up</a><li>
+		</ul>
+		<section class="myclass">
+		<img src="images/bliss.PNG" alt="logo" width="12 00" height="200" class="center">	           
 <br> 
 <hr>
-      <h3><i>Celebrate every moment with cold love.</i>
-      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Order Now</button>
-      </h3>
-</section>	
-<div id="id01" class="modal">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <form class="modal-content" action="/menu.html">
-          <div class="container">
-          <h1>Sign Up</h1>
-          <p>Please fill in this form to create an account.</p>
-          <hr>
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
+            <h3><i>Celebrate every moment with cold love.</i>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Order Now</button>
+            </h3>
+            </section>	
+            <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" action="/menu.html">
+            <div class="container">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
 
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
 
-          <label for="psw-repeat"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
       
-          <label>
-          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-          </label>
+            <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
 
-          <p>By creating an account you agree to our <a href="privacy.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-          <div class="clearfix">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-          <button type="submit" class="signupbtn" onclick="alert('You have signed up get to ordering')">Sign up</button>
-          <br>
-          <h3> Already have an account?? <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="userbtn">Login</button></h3>
-          </div>
-          </div>
-        </form>
-</div>
-
-<div id="id02" class="modal">
-        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <form class="modal-content" action="/menu.html">
-          <div class="container">
-          <h1>Login</h1>
-          <p>Already our customer?? Then login into your account below.</p>
-          <hr>
-          <label for="email"><b>User Name</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
-
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-
-          <a href="forgot.html">Forgot password</a>
-
-          <div class="clearfix">
-          <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-          <button type="submit" class="signupbtn" onclick="alert('You are logged in, start placing your order')">Login</button>  
-          </div>
-          </div>
-        </form>
-</div>
-
+          
+            <p>By creating an account you agree to our <button onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Terms & Privacy</button>.
+            <div id="id03" class="modal">
+            <section class="modal-content">
+            <h1> Privacy policy</h1>
+            <h5>This Privacy Policy explains how we collect, use and (under certain conditions) 
+            disclose your personal information.</h5> 
+            <label for="info" style="color: aquamarine"><b> INFORMATION COLLECTION AND USE</b></label>
+            <h4>We collect information from you in several different ways on this Site. <br>
+            One goal in collecting personal information from you is to provide an efficient, meaningful, and customized experience. <br>
+            For example, we can use your personal information to:
+            <br>
+            -Help you quickly find information, products, and services. <br>
+            -Help us create content on this Site that is most relevant to you. <br>
+            -Alert you to new information, products, and services that we offer. <br>
+            -Help make this Site easier for you to use by not having to enter information more than once.
+            </h4>
+            <label for="reg" style="color: aquamarine"><b>REGISTRATION AND ORDERING</b></label>
+            <h4>
+            Before using certain parts of this Site or ordering products, you must complete an online registration form.
+            During registration, you will be prompted to provide us certain personal information, including but not limited to your name, shipping and billing address(s), phone number, <br>
+            email address, and credit card number.  <br>
+            In addition, we may also ask you for your country of residence and/or your organization’s country of operation, so that we can comply with applicable laws and regulations.  <br>
+            This personal information is used for billing purposes, fulfilling your orders, communicating to you about your order and our site, and for internal marketing purposes. <br>              
 <br>
-      <div id="slideshow-example" data-component="slideshow">
-        <div role="list">
-          <div class="slide">
+            </h4>
+            <label for="use" style="color: aquamarine"><b>INFORMATION USE AND DISCLOSURE</b></label>
+            <h4>
+            We use your personal information to process your order and provide you with the best customer service possible. <br>
+            We may internally use your personal information to improve our Site’s content, layout and outreach and for our own marketing efforts <br>
+            (including marketing our services and products to you),and to determine general marketplace information about visitors to this Site. <br>
+            We will use your personal information to communicate with you about our site, your orders and deliveries. <br>
+            Additionally, we may send you a confirmation email when you register with us, or a service-related announcement on the rare occasions when it is necessary  <br>
+            (for example, if we must temporarily suspend our service for maintenance.)  <br>    
+            </h4>
+            <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn" style="background-color: dodgerblue;">I agree</button>
+            </div>
+            </section>
+            </div>
+            </p>
+
+            <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn" onclick="alert('You have signed up get to ordering')">Sign up</button>
+            <br>
+            <h3> Already have an account?? <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="userbtn">Login</button></h3>
+            </div>
+            </div>
+            </form>
+            </div>
+
+            <div id="id02" class="modal">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" action="/menu.html">
+            <div class="container">
+            <h1>Login</h1>
+            <p>Already our customer?? Then login into your account below.</p>
+            <hr>
+            <label for="email"><b>User Name</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <a href="forgot.html">Forgot password</a>
+
+            <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn" onclick="alert('You are logged in, start placing your order')">Login</button>  
+            </div>
+            </div>
+            </form>
+            </div>
+<br>
+            <div id="slideshow-example" data-component="slideshow">
+            <div role="list">
+            <div class="slide">
             <img src="images/pic1.png" width="650" height="400" class="center">
             </div>
-           <div class="slide">
+            <div class="slide">
             <img src="images/pic2.png" width="650" height="400" class="center">
-      </div>
-          <div class="slide">
-              <img src="images/pic3.png" width="650" height="400" class="center">
-              </div>
-              <div class="slide">
-              <img src="images/pic4.png" width="650" height="400" class="center">
-                </div>
-          <div class="slide">
-        <img src="images/pic5.png" width="650" height="400" class="center">
-           </div>
-         <div class="slide">
-        <img src="images/g2.PNG" width="650" height="400" class="center">
-       </div>
+            </div>
+            <div class="slide">
+            <img src="images/pic3.png" width="650" height="400" class="center">
+            </div>
+            <div class="slide">
+            <img src="images/pic4.png" width="650" height="400" class="center">
+            </div>
+            <div class="slide">
+            <img src="images/pic5.png" width="650" height="400" class="center">
+            </div>
+            <div class="slide">
+            <img src="images/g2.PNG" width="650" height="400" class="center">
+            </div>
 
-          <div class="slide">
-                <img src="images/ice4.PNG" width="650" height="400" class="center">
-          </div>
-          <div class="slide">
-                <img src="images/rename1.png" width="650" height="400" class="center">
-          </div>
-          <div class="slide">
-                <img src="images/rename4.png" width="650" height="400" class="center">
-          </div>
-		  <div class="slide">
-                <img src="images/rename5.png" width="650" height="400" class="center">
-          </div>
+            <div class="slide">
+            <img src="images/ice4.PNG" width="650" height="400" class="center">
+            </div>
+            <div class="slide">
+            <img src="images/rename1.png" width="650" height="400" class="center">
+            </div>
+            <div class="slide">
+            <img src="images/rename4.png" width="650" height="400" class="center">
+            </div>
+		<div class="slide">
+            <img src="images/rename5.png" width="650" height="400" class="center">
+            </div>
 
-          <div class="slide">
+            <div class="slide">
             <img src="images/g3.png" width="650" height="400" class="center">
-         </div>
+            </div>
 
-        </div>
-      </div>
-
-
+            </div>
+            </div>
 <br>
-<script type="text/javascript" src="index.js">
-</script>
-</h3> 
+<script type="text/javascript" src="index.js"></script> 
 <br>
-<section>
-      <form style="border: 2.5px solid #c3c3c3" class="myclass" >
+            <section>
+            <form style="border: 2.5px solid #c3c3c3" class="myclass" >
             <fieldset>
             <legend style="color: deeppink;"><b>WELCOME TO BLISS ICE CREAM PARLOUR</b></legend>
             <h3><i>Start celebrating every moment with our cold love of mouth watering ice creams at Bliss Ice cream palour.
-      Join hundreds of other Blissful customers and be part of the cold in these extremely hot days.
-      To order online simply sign up <a href="signUp.html">here</a> and stand a chance to get 1 free cone ice cream on any order more than R50.<i> </h3>
+            Join hundreds of other Blissful customers and be part of the cold in these extremely hot days.
+            To order online simply sign up <a href="signUp.html">here</a> and stand a chance to get 1 free cone ice cream on any order more than R50.<i> </h3>
             </fieldset>
-      </form>
-</section>
+            </form>
+            </section>
 <section>
 <footer>	
-<div class="footer">
-<h4>Follow us on </h4>
- <a href="https://www.twitter.com/"><i class="fab fa-twitter icon3"></i></a>
-  <a href="https://www.instagram.com/nonny_mahao/"> <i class="fab fa-instagram icon"></i></a>  
-<a href="https://www.facebook.com"><i class="fab fa-facebook icon2"></i></a>  
-</div>
+            <div class="footer">
+            <h4>Follow us on </h4>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter icon3"></i></a>
+            <a href="https://www.instagram.com/nonny_mahao/"> <i class="fab fa-instagram icon"></i></a>  
+            <a href="https://www.facebook.com"><i class="fab fa-facebook icon2"></i></a>  
+            </div>
 </footer>
 </section>
-<h6 style="text-align: center;"> Copyright @ Bliss Ice cream Palour </h6>	
+            <h6> Copyright @ Bliss Ice cream Palour </h6>	
 </body>
 </html>
